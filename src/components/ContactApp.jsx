@@ -1,5 +1,5 @@
 import React from "react";
-import {getData} from './data';
+import {getData} from '../data';
 import ContactList from "./ContactList";
 function ContactApp(){
     const contacts = getData();
